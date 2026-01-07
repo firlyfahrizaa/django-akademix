@@ -1,0 +1,24 @@
+# Python & Django (File sampah sistem)
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+*.pot
+*.pyc
+
+# Database Lokal (Jangan di-upload, bahaya!)
+db.sqlite3
+db.sqlite3-journal
+
+# Virtual Environment (Folder env kamu)
+env/
+venv/
+.env
+
+# Frontend (Node modules itu berat banget, wajib ignore)
+node_modules/
+npm-debug.log
+
+# OS System Files
+.DS_Store
+Thumbs.db
