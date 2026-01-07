@@ -1,6 +1,7 @@
 import json
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
+from django.utils.decorators import method_decorator
 from .models import DeviceUser, Note, Matkul
 
 # Helper: Cari user berdasarkan ID HP, kalau belum ada otomatis dibuatkan
